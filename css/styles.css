@@ -20,21 +20,65 @@ body{
     background-color: var(--white);
 
 }
+
+p, h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .link{
   text-decoration: none;
 
 }
 
+img{
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
 .list{list-style: none;}
+
+.container{
+width: 100%;
+max-width: 1128px;
+padding: 0 15px;;
+margin: 0 auto;
+outline: 2px solid red;
+}
 
 
 /*----------------HEADER----------------*/
 .header {
-}
-.header-navigation {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E7E9FC;
 }
 
-.header-menu 
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header-menu{
+  display: flex;
+  gap: 40px;
+
+}
 
 .header-menu-item{
 }
@@ -53,6 +97,12 @@ color: var(--navy-blue);}
 .header-address {
   font-style: normal;
     
+}
+
+.header-tel{
+  display: flex;
+  gap: 40px;
+ 
 }
 
 
@@ -83,6 +133,8 @@ line-height: 1.17;
 color: var(--iris);
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
+
 }
 
 
@@ -119,8 +171,14 @@ color: var(--cloud);
 /*----------=MAIN PAGE=----------*/
 /*----------SECTION HERO---------*/
 .hero {
-  background-color: var(--navy-blue);
+ 
 
+}
+
+.hero-container{
+  background-color: var(--navy-blue);
+  padding: 188px 472px;
+  
 }
 
 
@@ -131,10 +189,12 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--white);
+align-items: center;
 }
 
 
 .hero-btn {
+
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -143,6 +203,7 @@ letter-spacing: 0.04em;
 color: var(--white);
 background-color: var(--iris);
 cursor: pointer;
+
 }
 
 
