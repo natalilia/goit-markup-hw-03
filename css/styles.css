@@ -1,0 +1,286 @@
+/*colors*/
+:root{
+--iris: #4D5AE5;
+--ocean: #404BBF;
+--navy-blue: #2E2F42;
+--green: #31D0AA;
+--slate: #434455;
+--light-slate: #8E8F99;
+--cornflower: #E7E9FC;
+--cloud: #F4F4FD;
+--navy-blue-modal: #2E2F42;
+--grey: #2E2F42;
+--white: #FFFFFF;
+--dairy: #FCFCFC; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    background-color: var(--white);
+
+}
+.link{
+  text-decoration: none;
+
+}
+
+.list{list-style: none;}
+
+
+/*----------------HEADER----------------*/
+.header {
+}
+.header-navigation {
+}
+
+.header-menu 
+
+.header-menu-item{
+}
+
+.header-menu-link{font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blue);}
+
+.header-menu-link:is(:hover, :focus) {
+    color: var(--ocean);
+  }
+
+
+.header-address {
+  font-style: normal;
+    
+}
+
+
+.header-tel-link{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--slate);
+    
+}
+
+
+.header-tel-item {
+    
+}
+
+
+.header-tel-link:is(:hover, :focus) {
+    color: var(--ocean);
+  }
+
+
+.header-logo{
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+color: var(--iris);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+
+.header-logo-accent{
+  color: var(--navy-blue);
+}
+
+/*----------------Footer----------------*/
+.footer {
+  background-color: var(--navy-blue);}
+
+
+.footer-logo {
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 18px;
+letter-spacing: 0.03em;
+line-height: 1.17;
+color: var(--iris);
+text-transform: uppercase;
+}
+
+
+.footer-logo-accent{
+color: var(--cloud);}
+
+
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--cloud);
+}
+/*----------=MAIN PAGE=----------*/
+/*----------SECTION HERO---------*/
+.hero {
+  background-color: var(--navy-blue);
+
+}
+
+
+.hero-title {
+  font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--white);
+}
+
+
+.hero-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white);
+background-color: var(--iris);
+cursor: pointer;
+}
+
+
+.hero-btn:is(:hover, :focus) {
+  background-color: var(--ocean);
+}
+
+/*-------------SECTION ADVANTAGES-----------*/
+.advantages {
+}
+.advantages-points {
+}
+.advantages-points-item {
+}
+
+
+.advantages-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+.advantages-text {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+
+/*---------------EXAMPLES PHOTO------------*/
+.examples {
+}
+.examples-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-transform: capitalize;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+
+.examples-item {
+}
+.examples-item-photo {
+}
+
+/*-------------OUR TEAM-------------------*/
+.team {
+background: var(--cloud);
+}
+
+
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+text-transform: capitalize;
+
+}
+
+
+.team-person {
+}
+.team-person-photo {
+  background-color: var(--white);
+  
+}
+
+
+.team-person-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+.team-person-text {
+  font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+
+/*---------==PORTFOLIO PAGE==-----------*/
+.portfolio {
+}
+
+/*-------PORTFOLIO BUTTONS---------*/
+.portfolio-buttons {
+
+}
+.portfolio-buttons-iteam {
+}
+.portfolio-buttons-bum {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--iris);
+background: var(--cloud);
+cursor: pointer;
+}
+
+
+.portfolio-buttons-bum:is(:hover, :focus) {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+
+/*------PORTFOLIO PHOTO-------*/
+.portfolio-img {
+}
+.portfolio-img-exmpl {
+}
+
+
+.portfolio-img-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+
+.portfolio-img-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
