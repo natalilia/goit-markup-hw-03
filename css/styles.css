@@ -47,9 +47,8 @@ img{
 
 .container{
 width: 100%;
-max-width: 1128px;
 padding: 0 15px;
-
+min-width: 1158px;;
 margin: 0 auto;
 outline: 2px solid red;
 }
@@ -65,8 +64,8 @@ outline: 2px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  width: 1158px;
+  width: 1128px;
+  
   
 }
 
@@ -83,14 +82,15 @@ outline: 2px solid red;
 }
 
 .header-menu-item{
-  padding: 24px 0;
+  padding:24px 0;
 }
 
 .header-menu-link{font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--navy-blue);}
+color: var(--navy-blue);
+padding:24px 0;}
 
 .header-menu-link:is(:hover, :focus) {
     color: var(--ocean);
@@ -329,7 +329,7 @@ margin-bottom: 72px;
 }
 .team-person-photo {
   background-color: var(--white);
-  width: calc((100%-72) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   
 }
@@ -416,6 +416,7 @@ border-radius: 4px;
   padding: 32px 16px;
   background: var(--white);
 border: 1px solid var(--cornflower);
+border-top: none;
 }
 
 
