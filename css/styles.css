@@ -48,6 +48,7 @@ img{
 .container{
 width: 100%;
 max-width: 1128px;
+padding: 0 15px;
 
 margin: 0 auto;
 outline: 2px solid red;
@@ -64,8 +65,7 @@ outline: 2px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
   width: 1158px;
   
 }
@@ -83,6 +83,7 @@ outline: 2px solid red;
 }
 
 .header-menu-item{
+  padding: 24px 0;
 }
 
 .header-menu-link{font-weight: 500;
@@ -390,9 +391,13 @@ border-radius: 4px;
 }
 
 
+
+
 .portfolio-buttons-bum:is(:hover, :focus) {
   background-color: var(--ocean);
   color: var(--white);
+  border: 1px solid transparent;
+ 
 }
 
 /*------PORTFOLIO PHOTO-------*/
